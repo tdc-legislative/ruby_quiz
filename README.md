@@ -41,6 +41,11 @@ and 'answers' would have:
 * arrows                                                                                                                       
                                                                                                                                
 'arro' wouldn't show up in 'questions', because it appears in two words                                                        
+
+Submission
+==========
+
+Please fork the project, and send a pull request when complete.
                                                                                                                                
 I hope that's clear enough.  Let me know if you have any questions.                                                            
 Also, if you have any other code samples you'd be willing to share,                                                            

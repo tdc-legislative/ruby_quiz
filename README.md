@@ -43,7 +43,7 @@ and 'answers' would have:
 'arro' wouldn't show up in 'questions', because it appears in two words                                                        
 
 Submission
-==========
+----------
 
 Please fork the project, and send a pull request when complete.
                                                                                                                                

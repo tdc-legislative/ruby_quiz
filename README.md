@@ -46,6 +46,9 @@ Submission
 ----------
 
 Please fork the project, and send a pull request when complete.
+In your submission, include your name in a comment near the top of
+each file, along with instructions on how to run your application.
+
                                                                                                                                
 I hope that's clear enough.  Let me know if you have any questions.                                                            
 Also, if you have any other code samples you'd be willing to share,                                                            

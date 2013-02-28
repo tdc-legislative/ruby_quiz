@@ -34,4 +34,4 @@ and 'answers' would have:
 
 Submission
 ----------
-Please fork the project, and send a pull request when complete. In your submission, include your name in a comment near the top of each file along with instructions on how to run your code.  I hope that's clear enough.  Let me know if you have any questions.  If you have any other code samples you'd be willing to share, I'd really appreciate it.                                                                                                      
+Please make sure to run your code and check your results before submission.  After you feel confident about the results your code is producing, fork the project and send a pull request. In your submission include your name in a comment near the top of each file along with instructions on how to run your code.  I hope that's clear enough.  Let me know if you have any questions.  If you have any other code samples you'd be willing to share, I'd really appreciate it.                                                                                                      

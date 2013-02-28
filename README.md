@@ -3,7 +3,7 @@ TDC Ruby On Rails quiz
                                                                                                                                
 Quiz instructions                                                                                                             
 ------------------                                                                                                             
-There's no correct way to solve this, and take as much time as you need... we're just trying to get a look at your coding style and thought process.  
+There are many ways to solve this. The point of this exercise is to show us your coding style and thought process. Please take as much time as you need.
 Given a list of words (`./words`), generate two output files, 'questions' and 'answers'.  'questions' should contain every sequence of four letters that appears in exactly one word of the dictionary, one sequence per line.  'answers' should contain the words that contain the sequences, in the same order, again one per line.
 
 Example                                                                                                                    

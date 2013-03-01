@@ -1,13 +1,13 @@
 class String
-	# Greedily explode a string into an array of alpha sequences
-	# of length n.
+   # Greedily explode a string into an array of alpha sequences
+   # of at least length n. Default n is 4.
    def explode_word(n=4)
    	return [] if self.length < n
       self.scan(Regexp.new("[a-zA-Z]{#{n-1}}[a-zA-Z]+"))
    end
 
    #
-   # Yield each slice of length n
+   # Yield each slice of length n from string
    # Default n = 4 because that is what current
    # problem calls for.
    #

@@ -16,9 +16,8 @@ if ARGV.size != 1
   exit
 end
 
-# stores the matched 4 letter sequences
-# to avoid double processing
-matched = {}
+# stores the sequences letter sequences
+sequences = {}
 
 # handle opening file errors
 begin
@@ -40,26 +39,27 @@ puts "Processing file, please wait "
 # process each line of the file
 lines.each do |line|
 
-  # take every 4 letter sequence that appears and process it
+  # take every 4 letter sequence that appears and stores it
   for i in 0..line.chomp.size-4 do
-    # skyp if the sequence was already processed
-    if matched[line[i,4]].nil?
-
-      # finds the ocurrence of the sequence in the file
-      matches = text.scan(/.*#{line[i,4]}.*/)
-
-      # register it only if it appears in exactly one word of the dictionary
-      if matches.size == 1
-        matched[line[i,4]] = matches.first
-
-        questions << line[i,4]+"\n"
-        answers << matches.first+"\n"
-      end
+    if sequences[line[i,4]].nil?
+      sequences[line[i,4]] = [line.chomp]
+    else
+      sequences[line[i,4]] << line.chomp
     end
   end
 end
 
-puts "Done."
+# Write content in questions and answers files
+sequences.each do |key, values|
+  unless values.size > 1
+    questions << "#{key}\n"
+    answers << "#{values.first}\n"
+  end
+end
+
+
 # close files
 questions.close
 answers.close
+
+puts "Done."

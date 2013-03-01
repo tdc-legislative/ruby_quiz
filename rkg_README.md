@@ -7,7 +7,7 @@ To use:
 
 shows usage info. 
 
-Defaults uses 'words' file given, slice length of 4 and output file names 
+Defaults are 'words' file given, slice length of 4 and output file names 
 as described in directions.
 
 Assumptions/Commentary

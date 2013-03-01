@@ -32,3 +32,5 @@ to two different files.
 it to IO. It is easier to test as written.
 
 * Sixteen rspec tests live where you would expect them.
+
+* As you may know, I did not write trollop stuff.
